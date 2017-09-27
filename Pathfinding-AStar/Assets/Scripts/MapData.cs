@@ -3,7 +3,7 @@
 public class MapData : MonoBehaviour {
 
     public int width = 10;
-    public int height = 10;
+    public int height = 5;
 
     /**************************************************/
 

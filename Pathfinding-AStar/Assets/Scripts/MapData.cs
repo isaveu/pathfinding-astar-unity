@@ -8,6 +8,7 @@ public class MapData : MonoBehaviour {
     public int height = 1;
 
     public TextAsset textAsset;
+    public string resourcepath = "MapData";
 
     /**************************************************/
 
@@ -38,6 +39,9 @@ public class MapData : MonoBehaviour {
     }
 
     public List<string> GetTextFromFile() {
+        if (textAsset == null) {
+            textAsset = Resources.Load(resourcepath + "/" + "Level_1") as TextAsset;
+        }
         return GetTextFromFile(textAsset);
     }
 

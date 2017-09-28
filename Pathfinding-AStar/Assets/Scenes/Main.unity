@@ -179,7 +179,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 10
   height: 5
-  textAsset: {fileID: 4900000, guid: 1a0b70ca6a305b5408af328adf476420, type: 3}
+  textAsset: {fileID: 0}
+  resourcepath: MapData
 --- !u!4 &938158582
 Transform:
   m_ObjectHideFlags: 0

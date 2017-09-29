@@ -7,8 +7,11 @@ public class Graph : MonoBehaviour {
     public List<Node> walls = new List<Node>();
 
     private int[,] m_mapData;
+
     private int m_width;
+    public int Widht { get { return m_width; } }
     private int m_height;
+    public int Height { get { return m_height; } }
 
     public static readonly Vector2[] allDirections = {
         new Vector2(0f, 1f),

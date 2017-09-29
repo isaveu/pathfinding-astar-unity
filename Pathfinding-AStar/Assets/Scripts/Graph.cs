@@ -9,7 +9,7 @@ public class Graph : MonoBehaviour {
     private int[,] m_mapData;
 
     private int m_width;
-    public int Widht { get { return m_width; } }
+    public int Width { get { return m_width; } }
     private int m_height;
     public int Height { get { return m_height; } }
 

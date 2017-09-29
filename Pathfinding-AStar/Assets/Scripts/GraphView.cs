@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [RequireComponent(typeof(Graph))]
 public class GraphView : MonoBehaviour {
@@ -31,6 +32,18 @@ public class GraphView : MonoBehaviour {
                     nodeView.ColorNode(wallColor);
                 } else {
                     nodeView.ColorNode(baseColor);
+                }
+            }
+        }
+    }
+
+    public void ColorNodes(List<Node> nodes, Color color) {
+        foreach (Node n in nodes) {
+            if (n != null) {
+                NodeView nodeView = nodeViews[n.xIndex, n.yIndex];
+
+                if (nodeView != null) {
+                    nodeView.ColorNode(color);
                 }
             }
         }

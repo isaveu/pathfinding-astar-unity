@@ -421,7 +421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64f9e89c107cb0d4f9671473e6817257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NodeViewPrefab: {fileID: 1267866469935858, guid: 4d71b46aca8c04742b708e03c95f8751,
+  NodeViewPrefab: {fileID: 1713525131585988, guid: 09a1dd83f32604145a5837ab9f2a3417,
     type: 2}
   baseColor: {r: 1, g: 1, b: 1, a: 1}
   wallColor: {r: 0, g: 0, b: 0, a: 1}

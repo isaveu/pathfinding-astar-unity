@@ -101,6 +101,9 @@ public class Pathfinder : MonoBehaviour {
 
                 ExpandFrontier(currentNode);
                 ShowColors();
+                if (m_graphView) {
+                    m_graphView.ShowNodeArrows(m_frontierNodes.ToList());
+                }
 
                 yield return new WaitForSeconds(timeStep);
 

@@ -192,5 +192,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tile: {fileID: 1019257569471942}
-  arrow: {fileID: 0}
+  arrow: {fileID: 1601915734211044}
   borderSize: 0.025

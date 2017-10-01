@@ -140,9 +140,9 @@ MonoBehaviour:
   pathfinder: {fileID: 2105391869}
   startX: 0
   startY: 0
-  goalX: 14
-  goalY: 7
-  timeStep: 0.1
+  goalX: 62
+  goalY: 20
+  timeStep: 0
 --- !u!4 &781946409
 Transform:
   m_ObjectHideFlags: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   width: 10
   height: 5
   textAsset: {fileID: 0}
-  textureMap: {fileID: 2800000, guid: 053cc2385fc193b4dad622ba3d17b8f3, type: 3}
+  textureMap: {fileID: 2800000, guid: 09ecd19c4de24b947ae183b5903656ff, type: 3}
   resourcepath: MapData
 --- !u!4 &938158582
 Transform:
@@ -261,7 +261,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 19
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -284,7 +284,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1411430190}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 7, y: 20, z: 4}
+  m_LocalPosition: {x: 31.5, y: 20, z: 17.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -457,6 +457,12 @@ MonoBehaviour:
   frontierColor: {r: 1, g: 0, b: 1, a: 1}
   exploredColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   pathColor: {r: 0, g: 1, b: 1, a: 1}
+  arrowColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
+  highlightColor: {r: 1, g: 1, b: 0.5, a: 1}
+  showIterations: 1
+  showColors: 1
+  showArrows: 1
+  exitOnGoal: 1
   isComplete: 0
 --- !u!4 &2105391870
 Transform:

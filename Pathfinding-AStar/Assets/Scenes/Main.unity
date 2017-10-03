@@ -140,8 +140,8 @@ MonoBehaviour:
   pathfinder: {fileID: 2105391869}
   startX: 0
   startY: 0
-  goalX: 62
-  goalY: 20
+  goalX: 20
+  goalY: 12
   timeStep: 0
 --- !u!4 &781946409
 Transform:
@@ -186,7 +186,7 @@ MonoBehaviour:
   width: 10
   height: 5
   textAsset: {fileID: 0}
-  textureMap: {fileID: 2800000, guid: 09ecd19c4de24b947ae183b5903656ff, type: 3}
+  textureMap: {fileID: 2800000, guid: cc7270413f4870448893e6fa6d3a82ef, type: 3}
   resourcepath: MapData
 --- !u!4 &938158582
 Transform:
@@ -464,6 +464,7 @@ MonoBehaviour:
   showArrows: 1
   exitOnGoal: 1
   isComplete: 0
+  mode: 1
 --- !u!4 &2105391870
 Transform:
   m_ObjectHideFlags: 0

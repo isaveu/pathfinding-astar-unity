@@ -17,6 +17,8 @@ public class Node {
 
     public List<Node> neighbors = new List<Node>();
 
+    public float distanceTraveled = Mathf.Infinity;
+
     public Node previous = null;
 
     /**************************************************/

@@ -140,8 +140,8 @@ MonoBehaviour:
   pathfinder: {fileID: 2105391869}
   startX: 0
   startY: 0
-  goalX: 14
-  goalY: 7
+  goalX: 21
+  goalY: 12
   timeStep: 0
 --- !u!4 &781946409
 Transform:
@@ -186,8 +186,23 @@ MonoBehaviour:
   width: 10
   height: 5
   textAsset: {fileID: 0}
-  textureMap: {fileID: 2800000, guid: 09ecd19c4de24b947ae183b5903656ff, type: 3}
+  textureMap: {fileID: 2800000, guid: 28fdd3a185ce575419f2d91c5e37fa8d, type: 3}
   resourcepath: MapData
+  openColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  blockedColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  lightTerrainColor:
+    serializedVersion: 2
+    rgba: 4283351676
+  mediumTerrainColor:
+    serializedVersion: 2
+    rgba: 4281663484
+  heavyTerrainColor:
+    serializedVersion: 2
+    rgba: 4279009791
 --- !u!4 &938158582
 Transform:
   m_ObjectHideFlags: 0
@@ -284,7 +299,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1411430190}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 31.5, y: 20, z: 17.5}
+  m_LocalPosition: {x: 15, y: 20, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -423,8 +438,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NodeViewPrefab: {fileID: 1713525131585988, guid: 09a1dd83f32604145a5837ab9f2a3417,
     type: 2}
-  baseColor: {r: 1, g: 1, b: 1, a: 1}
-  wallColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &2105391868
 GameObject:
   m_ObjectHideFlags: 0

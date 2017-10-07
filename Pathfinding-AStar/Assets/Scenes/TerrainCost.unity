@@ -140,8 +140,8 @@ MonoBehaviour:
   pathfinder: {fileID: 2105391869}
   startX: 0
   startY: 0
-  goalX: 27
-  goalY: 10
+  goalX: 30
+  goalY: 25
   timeStep: 0
 --- !u!4 &781946409
 Transform:
@@ -186,7 +186,7 @@ MonoBehaviour:
   width: 10
   height: 5
   textAsset: {fileID: 0}
-  textureMap: {fileID: 2800000, guid: 99810722c34331f4695264f9fa51a979, type: 3}
+  textureMap: {fileID: 2800000, guid: 09ecd19c4de24b947ae183b5903656ff, type: 3}
   resourcepath: MapData
   openColor:
     serializedVersion: 2
@@ -472,12 +472,12 @@ MonoBehaviour:
   pathColor: {r: 0, g: 1, b: 1, a: 1}
   arrowColor: {r: 0.85, g: 0.85, b: 0.85, a: 1}
   highlightColor: {r: 1, g: 1, b: 0.5, a: 1}
-  showIterations: 1
+  showIterations: 0
   showColors: 1
   showArrows: 1
   exitOnGoal: 1
   isComplete: 0
-  mode: 2
+  mode: 3
 --- !u!4 &2105391870
 Transform:
   m_ObjectHideFlags: 0
